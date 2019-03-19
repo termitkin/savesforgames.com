@@ -39,7 +39,7 @@
     }
   }
   .header {
-    background-color: #b30000;
+    background-color: #eb0000;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -149,7 +149,7 @@
     color: #454545;
   }
   .post a {
-    color: #b30000;
+    color: #eb0000;
   }
   .post a:hover {
     text-decoration: none;
@@ -194,7 +194,7 @@
     width: 500px;
     min-height: 25px;
     font-size: 18px;
-    color: #b30000;
+    color: #eb0000;
     font-weight: 400;
   }
   .post-heading__link:hover {
@@ -214,7 +214,7 @@
   .popular-posts-heading {
     padding-top: 20px;
     font-size: 18px;
-    color: #b30000;
+    color: #eb0000;
   }
   .popular-posts-list {
     width: 260px;
@@ -222,7 +222,7 @@
     font-size: 12px;
   }
   .popular-posts-list__link {
-    color: #b30000;
+    color: #eb0000;
   }
 
   </style>
