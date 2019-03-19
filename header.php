@@ -10,8 +10,10 @@
   <meta property="fb:admins" content="100001912999823"/>
   <meta property="fb:app_id" content="289423404490301" />
   <link rel="shortcut icon" href="/favicon.ico"/>
+  <link rel="preconnect" href="https://pbs.twimg.com">
+  <link rel="preconnect" href="https://www.facebook.com">
+  <link rel="preconnect" href="https://connect.facebook.net">
   <link rel="preconnect" href="https://pagead2.googlesyndication.com">
-  <link rel="preconnect" href="https://www.google-analytics.com">
   <link rel="preconnect" href="https://googleads.g.doubleclick.net">
   <link rel="preconnect" href="https://adservice.google.com">
   <style>
