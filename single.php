@@ -44,10 +44,6 @@
       <div class="leave-a-comment">Comments:</div>
       <div class="fb-comments" data-href="<?php the_permalink() ?>" data-width="500" data-numposts="5" data-colorscheme="light"></div>
     </div>
-
-
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=289423404490301"></script>
   </div>
 
   <?php get_sidebar(); ?>
