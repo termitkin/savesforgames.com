@@ -11,6 +11,7 @@
   <meta property="fb:app_id" content="289423404490301" />
   <link rel="shortcut icon" href="/favicon.ico"/>
   <link rel="preconnect" href="https://pbs.twimg.com">
+  <link rel="preconnect" href="https://staticxx.facebook.com">
   <link rel="preconnect" href="https://www.facebook.com">
   <link rel="preconnect" href="https://connect.facebook.net">
   <link rel="preconnect" href="https://googleads.g.doubleclick.net">
