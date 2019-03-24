@@ -6,7 +6,7 @@
 
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-      <article class="post">
+      <article role="main" class="post">
 
         <h1 class="post-heading">
           <?php the_title(); ?>

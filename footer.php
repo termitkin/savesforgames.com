@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer role="contentinfo" class="footer">
   <link href="//savesforgames.com/wp-content/themes/savesforgames-v4-bem/style.css" rel="stylesheet">
 	<!-- twitter scripts -->
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.async=true;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
