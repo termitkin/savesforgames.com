@@ -37,13 +37,10 @@
       (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
 
-      <div class="social-network-like-buttons">
-        <div class="fb-like" data-href="<?php the_permalink() ?>" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
-      </div>
-
       <div class="leave-a-comment">Comments:</div>
       <div class="fb-comments" data-href="<?php the_permalink() ?>" data-width="500" data-numposts="5" data-colorscheme="light"></div>
     </div>
+
   </div>
 
   <?php get_sidebar(); ?>
