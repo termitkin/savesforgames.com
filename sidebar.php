@@ -1,8 +1,4 @@
 <aside role="complementary" class="sidebar">
-	<?php global $user_ID; if( !$user_ID ) : ?>
-		<a class="twitter-timeline" href="https://twitter.com/savesforgames" data-widget-id="424093758007689216">Tweets by @savesforgames</a>
-	<?php endif; ?>
-
 	<!--noindex-->
 	<?php //if( !$user_ID ) : ?>
 		<div class="popular-posts-heading">Most Popular Savegame</div>
