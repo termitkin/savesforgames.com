@@ -1,6 +1,4 @@
 <footer role="contentinfo" class="footer">
-  <link href="//savesforgames.com/wp-content/themes/savesforgames-v4-bem/style.css" rel="stylesheet">
-
   <div class="footer__inner">
 		<div class="footer__links-wrap footer__links-wrap_links-align_left">
       <a class="footer__link" href="/" title="Home page">Home</a>
