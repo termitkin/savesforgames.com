@@ -5,14 +5,6 @@ function remove_admin_bar(){
 	}
 };
 
-
-// Удаляем jquery
-add_filter( 'wp_enqueue_scripts', 'change_default_jquery', PHP_INT_MAX );
-function change_default_jquery( ){
-    wp_dequeue_script( 'jquery');
-    wp_deregister_script( 'jquery');   
-}
-
 // Удаляем хлам из <head>
 remove_action('wp_head', 'rsd_link');
 remove_action('wp_head', 'wp_generator');
