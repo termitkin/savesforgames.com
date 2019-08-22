@@ -323,10 +323,24 @@
     text-decoration: none;
   }
   
+	.page-numbers:hover,
+	.page-numbers:focus {
+		background-color: #003399;
+	}
+	
   .current {
     background-color: #ed8000
   }
   
+	.dots:hover,
+	.dots:focus {
+		background-color: #eb0000;
+	}
+	.current:hover,
+	.current:focus {
+		background-color: #ed8000;
+	}
+	
   .google-ads-and-comments-wrapper {
     width: 500px;
     min-height: 307px;
