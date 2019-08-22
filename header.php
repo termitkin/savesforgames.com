@@ -128,9 +128,12 @@
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
+		transition: background-color 0.25s;
   }
 
-  .site-logo:hover {
+  .site-logo:hover,
+	.site-logo:focus {
+  	color: #ffffcc;
     text-decoration: none;
   }
 
