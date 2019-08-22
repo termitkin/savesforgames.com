@@ -242,6 +242,11 @@
     color: #eb0000;
 		text-decoration: underline;
   }
+	
+	.popular-posts-list__link:hover,
+	.popular-posts-list__link:focus {
+		text-decoration: none;
+	}
 
   .footer {
     width: 100%;
