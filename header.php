@@ -73,13 +73,21 @@
   }
 
   .search-form__input {
+  	background-color: #fff;
     width: 200px;
     height: 30px;
     border-radius: 3px 0 0 3px;
     border: 0;
     margin: 0;
     padding: 7px;
+		transition: background-color 0.25s;
   }
+	
+	.search-form__input:hover,
+	.search-form__input:focus {
+		background-color: #ffffcc;
+		outline: none;
+	}
 
   .search-form__button {
     height: 30px;
@@ -89,7 +97,14 @@
     border-left: 1px solid #ccc;
     cursor: pointer;
     padding: 7px;
+		transition: background-color 0.25s;
   }
+	
+	.search-form__button:hover,
+	.search-form__button:focus {
+		background-color: #ffffcc;
+		outline: none;
+	}
 
   @media screen and (min-width: 0px) and (max-width: 782px) {
     .search-form {
@@ -225,7 +240,9 @@
   }
   .popular-posts-list__link {
     color: #eb0000;
+		text-decoration: underline;
   }
+
   .footer {
     width: 100%;
     min-height: 50px;
