@@ -9,7 +9,7 @@
       <article class="post">
 
         <h2 class="post-heading">
-          <a class="post-heading__link" href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
+          <a class="link link_size_big" href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
         </h2>
 
         <?php the_content('Read more'); ?>

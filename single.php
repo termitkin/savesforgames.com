@@ -22,7 +22,7 @@
 
     <?php if (get_post_meta(get_the_ID(), '1', true)) { ?>
       <div class="you-can-download">
-        Also, you can download <a class="you-can-download__link" href="//trainersforgames.com<?php echo (get_post_meta(get_the_ID(), '1', true)) ?>" target="_blank" rel="nofollow noopener">trainers</a> for this game
+        Also, you can download <a class="link link_size_big" href="//trainersforgames.com<?php echo (get_post_meta(get_the_ID(), '1', true)) ?>" target="_blank" rel="nofollow noopener">trainers</a> for this game
       </div>
     <?php } else {} ?>
 
