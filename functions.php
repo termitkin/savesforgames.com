@@ -101,6 +101,39 @@ function enable_extended_upload ( $mime_types =array() ) {
 add_filter('upload_mimes', 'enable_extended_upload');
 
 
+// Remove website field from add comments form
+function website_remove($fields) {
+	if(isset($fields['url'])) {
+		unset($fields['url']);
+	}
+	if (isset($fields['email'])) {
+		unset($fields['email']);
+	}
+	
+	return $fields;
+}
+add_filter('comment_form_default_fields', 'website_remove');
+
+
+// Remove comment date
+function wpb_remove_comment_date($date, $d, $comment) { 
+    if ( !is_admin() ) {
+        return;
+    } else { 
+        return $date;
+    }
+}
+add_filter( 'get_comment_date', 'wpb_remove_comment_date', 10, 3);
+ 
+// Remove comment time
+function wpb_remove_comment_time($date, $d, $comment) { 
+    if ( !is_admin() ) {
+            return;
+    } else { 
+            return $date;
+    }
+}
+add_filter( 'get_comment_time', 'wpb_remove_comment_time', 10, 3);
 
 
 
