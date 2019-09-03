@@ -398,8 +398,8 @@ body, div, header, aside, footer, input, button, ul {
     <div class="header__content">
       <a class="site-logo" href="/" title="Home page">SavesForGames.Com</a>
       <form role="search" class="search-form" id="searchform" action="//savesforgames.com/" method="get">
-        <input class="search-form__input" aria-label="Enter here title of a game to find a savegame" name="s" type="text" placeholder="Find a savegame..">
-        <button class="search-form__button" aria-label="Search button" id="searchsubmit" type="submit">Search</button>
+        <input class="input input_search" aria-label="Enter here title of a game to find a savegame" name="s" type="text" placeholder="Find a savegame..">
+        <button class="submit submit_search" aria-label="Search button" id="searchsubmit" type="submit">Search</button>
       </form>
     </div>
   </header>
