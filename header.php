@@ -7,14 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="google-site-verification" content="eXbFXJXlGto7DsVmYUNTpNBElLIIfDEo1oFhl08jGWg" />
 <meta name="yandex-verification" content="3b552121d3f3e932" />
-<meta property="fb:admins" content="100001912999823"/>
-<meta property="fb:app_id" content="289423404490301" />
 <link rel="shortcut icon" href="/favicon.ico"/>
 <link rel="preconnect" href="https://pagead2.googlesyndication.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://www.facebook.com">
-<link rel="preconnect" href="https://connect.facebook.net">
-<link rel="preconnect" href="https://static.xx.fbcdn.net">
 <link rel="preconnect" href="https://googleads.g.doubleclick.net">
 <link rel="preconnect" href="https://adservice.google.com">
 <style>
