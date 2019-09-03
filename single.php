@@ -38,7 +38,7 @@
       </script>
 
       <div class="leave-a-comment">Comments:</div>
-      <div class="fb-comments" data-href="<?php the_permalink() ?>" data-width="500" data-numposts="5" data-colorscheme="light"></div>
+
     </div>
 
   </div>

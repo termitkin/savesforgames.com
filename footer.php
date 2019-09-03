@@ -14,7 +14,6 @@
 </footer>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0&appId=289423404490301"></script>
 <?php wp_footer(); ?>
 </body>
 </html>
