@@ -33,10 +33,10 @@
       </div>
 
     <?php else : ?>
-
-      <h2 class="center">Not Found</h2>
-      <p class="center">Sorry, but you are looking for something that isn't here.</p>
-
+      <div class="not-found-posts">
+        <h2 class="not-found-posts__heading">Not Found</h2>
+        <p class="not-found-posts__text">Sorry, but you are looking for something that isn't here.</p> 
+      </div>
     <?php endif; ?>
 
   </div>

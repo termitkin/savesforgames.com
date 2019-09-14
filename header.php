@@ -391,6 +391,21 @@ body, div, header, aside, footer, input, button, ul {
   background-color: #ffffcc;
   outline: none;
 }
+.not-found-posts {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+.not-found-posts__heading {
+  color: #333;
+  font-size: 18px;
+  margin: 10px 0;
+}
+.not-found-posts__text {
+  color: #333;
+  font-size: 14px;
+  margin: 0;
+}
 </style>
 </head>
 <body>
