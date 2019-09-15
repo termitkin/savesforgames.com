@@ -343,21 +343,13 @@ body, div, header, aside, footer, input, button, ul {
 }
 .comment {
   margin-top: 15px;
-
 }
 .comment-content {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 0 10px;
   margin: 10px 0;
-
 }
-
-
-.comment-content:after {
-
-}
-
 .children {
   width: 95%;
   margin-left: auto;
