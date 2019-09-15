@@ -13,6 +13,12 @@
 <link rel="preconnect" href="https://googleads.g.doubleclick.net">
 <link rel="preconnect" href="https://adservice.google.com">
 <style>
+html {
+  height: 100%;
+}
+body {
+	height: calc(100% - 50px);
+}
 body, div, header, aside, footer, input, button, ul {
   margin: 0;
   padding: 0;
@@ -77,12 +83,18 @@ body, div, header, aside, footer, input, button, ul {
   text-decoration: none;
 }
 .content-and-sidebar-wrapper {
+  min-height: calc(100% - 266px);
   max-width: 780px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0 15px;
+}
+@media screen and (min-width: 576px) {
+  .content-and-sidebar-wrapper {
+    min-height: calc(100% - 174px);
+  }
 }
 @media screen and (min-width: 992px) {
   .content-and-sidebar-wrapper {
@@ -119,10 +131,8 @@ body, div, header, aside, footer, input, button, ul {
   height: auto;
 }
 .posts-wrapper {
-  width: 500px;
-}
-.posts-wrapper {
   width: 100%;
+  min-height: 100%;
   max-width: 500px;
   margin: 0 auto;
 }
