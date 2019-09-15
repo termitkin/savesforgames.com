@@ -40,8 +40,6 @@ remove_action( 'wp_head', 'wp_resource_hints', 2);
 if( function_exists( 'rel_canonical' ) ) {
 	remove_action( 'wp_head', 'rel_canonical' );
 }
-add_action( 'wp_head', 'rel_canonical_nabtron' );
-
 function rel_canonical_nabtron() {
 	if ( !is_singular() )
 	return;
@@ -54,8 +52,8 @@ function rel_canonical_nabtron() {
 
 	echo ('<link rel="canonical" href="'. $link . '" />');
 }
+add_action( 'wp_head', 'rel_canonical_nabtron' );
 
-add_filter( 'amp_post_template_metadata', 'xyz_amp_modify_json_metadata', 10, 2 );
 function xyz_amp_modify_json_metadata( $metadata, $post ) {
 	$metadata['@type'] = 'NewsArticle';
 
@@ -68,6 +66,7 @@ function xyz_amp_modify_json_metadata( $metadata, $post ) {
 
 	return $metadata;
 }
+add_filter( 'amp_post_template_metadata', 'xyz_amp_modify_json_metadata', 10, 2 );
 
 // Remove css file from Post Views Counter Plugin
 function delete_css_from_post_views_counter() {
@@ -114,27 +113,37 @@ function website_remove($fields) {
 }
 add_filter('comment_form_default_fields', 'website_remove');
 
+// Comment date to format %num% days ago
+function pressfore_comment_time_output($date, $d, $comment){
+	return sprintf( _x( '%s ago', '%s = human-readable time difference', 'your-text-domain' ), human_time_diff( get_comment_time( 'U' ), current_time( 'timestamp' ) ) );
+}
+add_filter('get_comment_date', 'pressfore_comment_time_output', 10, 3);
+
+
+
+
+
+
 
 // Remove comment date
-function wpb_remove_comment_date($date, $d, $comment) { 
-    if ( !is_admin() ) {
-        return;
-    } else { 
-        return $date;
-    }
-}
-add_filter( 'get_comment_date', 'wpb_remove_comment_date', 10, 3);
+// function wpb_remove_comment_date($date, $d, $comment) { 
+//     if ( !is_admin() ) {
+//         return;
+//     } else { 
+//         return $date;
+//     }
+// }
+// add_filter( 'get_comment_date', 'wpb_remove_comment_date', 10, 3);
  
 // Remove comment time
-function wpb_remove_comment_time($date, $d, $comment) { 
-    if ( !is_admin() ) {
-            return;
-    } else { 
-            return $date;
-    }
-}
-add_filter( 'get_comment_time', 'wpb_remove_comment_time', 10, 3);
-
+// function wpb_remove_comment_time($date, $d, $comment) { 
+//     if ( !is_admin() ) {
+//             return;
+//     } else { 
+//             return $date;
+//     }
+// }
+// add_filter( 'get_comment_time', 'wpb_remove_comment_time', 10, 3);
 
 
 

@@ -328,11 +328,36 @@ body, div, header, aside, footer, input, button, ul {
   word-wrap: break-word;
 }
 .comment-metadata {
-  display: none;
+  display: flex;
+}
+.comment-metadata a {
+  color: #999;
+  text-decoration: underline;
+}
+.comment-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+.edit-link {
+  margin-left: auto;
 }
 .comment {
   margin-top: 15px;
+
 }
+.comment-content {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin: 10px 0;
+
+}
+
+
+.comment-content:after {
+
+}
+
 .children {
   width: 95%;
   margin-left: auto;
