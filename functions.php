@@ -99,7 +99,6 @@ function enable_extended_upload ( $mime_types =array() ) {
 }
 add_filter('upload_mimes', 'enable_extended_upload');
 
-
 // Remove website field from add comments form
 function website_remove($fields) {
 	if(isset($fields['url'])) {
@@ -115,12 +114,9 @@ add_filter('comment_form_default_fields', 'website_remove');
 
 // Comment date to format %num% days ago
 function pressfore_comment_time_output($date, $d, $comment){
-	return sprintf( _x( '%s ago', '%s = human-readable time difference', 'your-text-domain' ), human_time_diff( get_comment_time( 'U' ), current_time( 'timestamp' ) ) );
+	return sprintf( _x( '%s ago', '%s = human-readable time difference'), human_time_diff( get_comment_time( 'U' ), current_time( 'timestamp' ) ) );
 }
 add_filter('get_comment_date', 'pressfore_comment_time_output', 10, 3);
-
-
-
 
 // Change order fields in comments (author -> textarea -> submit button)
 function wpb_move_comment_field_to_bottom($fields) {
