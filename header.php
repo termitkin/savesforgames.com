@@ -362,10 +362,6 @@ body, div, header, aside, footer, input, button, ul {
   flex-direction: column;
   margin: 0 0 15px 0;
 }
-.comment-form-comment,
-.form-submit {
-  order: 1;
-}
 .comment-notes {
   display: none;
 }
