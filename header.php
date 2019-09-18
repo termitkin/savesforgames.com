@@ -378,6 +378,10 @@ body, div, header, aside, footer, input, button, ul {
   transition: background-color 0.25s;
   box-sizing: border-box;
 }
+#author,
+#comment {
+  margin-top: 5px;
+}
 #comment {
   min-width: 100%;
   max-width: 100%;
