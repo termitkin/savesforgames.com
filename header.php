@@ -368,6 +368,7 @@ body, div, header, aside, footer, input, button, ul {
 .input,
 #author,
 #comment {
+  width: 100%;
   height: 30px;
   border-radius: 3px;
   border: 1px solid #ccc;
