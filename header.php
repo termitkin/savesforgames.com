@@ -72,7 +72,7 @@ body, div, header, aside, footer, input, button, ul {
 }
 .site-logo {
   color: #fff;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 700;
   text-decoration: none;
   transition: color 0.25s;
@@ -107,7 +107,7 @@ body, div, header, aside, footer, input, button, ul {
   max-width: 500px;
   margin-top: 10px;
   color: #444;
-  font-size: 13px;
+  font-size: 0.8125rem;
   line-height: 1.4;
   font-family: sans-serif;
   word-wrap: break-word;
@@ -156,27 +156,27 @@ body, div, header, aside, footer, input, button, ul {
 }
 .post-heading {
   display: inline;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #eb0000;
   font-weight: 400;
   font-family: sans-serif;
 }
 .popular-posts-heading {
   margin: 12px 0 3px 0;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #eb0000;
 }
 .popular-posts-list {
   max-width: 260px;
   list-style-type: none;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 .link,
 .comment-reply-link,
 .comment-reply-title a {
   text-decoration: underline;
   color: #eb0000;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 400;
   font-family: sans-serif;
 }
@@ -189,7 +189,7 @@ body, div, header, aside, footer, input, button, ul {
   text-decoration: none;
 }
 .link_size_big {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .link_color_white {
   color: #fff;
@@ -199,7 +199,7 @@ body, div, header, aside, footer, input, button, ul {
   background-color: #eb0000;
   color: #fff;
   margin-top: 20px;
-  font-size: 14px;
+  font-size: 0.875rem;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
@@ -225,7 +225,7 @@ body, div, header, aside, footer, input, button, ul {
   }
 }
 .footer__content {
-  height: 36px;
+  min-height: 36px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -288,7 +288,7 @@ body, div, header, aside, footer, input, button, ul {
 .leave-a-comment {
   max-width: 500px;
   margin: 10px 0;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   color: #eb0000;
   font-family: sans-serif;
@@ -299,7 +299,7 @@ body, div, header, aside, footer, input, button, ul {
 .post-views-label,
 .post-views-count {
   color: #444;
-  font-size: 12px;
+  font-size: 0.75rem;
   display: inline;
 }
 .you-can-download {
@@ -321,7 +321,7 @@ body, div, header, aside, footer, input, button, ul {
 .comments-title,
 .comment-reply-title {
   color: #444;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-family: sans-serif;
 }
 .comment-body {
@@ -370,7 +370,10 @@ body, div, header, aside, footer, input, button, ul {
   display: flex;
   flex-direction: column;
   margin: 0 0 15px 0;
+  font-size: 1rem;
+  line-height: 1rem;
 }
+
 .comment-notes {
   display: none;
 }
@@ -386,6 +389,8 @@ body, div, header, aside, footer, input, button, ul {
   background-color: #fff;
   transition: background-color 0.25s;
   box-sizing: border-box;
+  font-size: 0.83125rem;
+  line-height: 0.83125rem;
 }
 #author,
 #comment {
@@ -398,23 +403,30 @@ body, div, header, aside, footer, input, button, ul {
 .input_search {
   border: none;
   border-radius: 3px 0 0 3px;
+  font-size: 0.83125rem;
+  line-height: 0.83125rem;
 }
 .submit {
-  height: 30px;
+  min-height: 30px;
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 3px 3px 3px 3px;
   cursor: pointer;
   padding: 7px;
+  font-size: 0.83125rem;
+  line-height: 0.83125rem;
 }
 .submit:hover,
 .submit:focus {
   background-color: #ffffcc;
 }
 .submit_search {
+  height: 30px;
   border: 0;
   border-radius: 0 3px 3px 0;
   border-left: 1px solid #ccc;
+  font-size: 0.83125rem;
+  line-height: 0.83125rem;
 }
 #comment {
   min-height: 100px;
@@ -435,12 +447,12 @@ body, div, header, aside, footer, input, button, ul {
 }
 .not-found-posts__heading {
   color: #333;
-  font-size: 18px;
+  font-size: 1.125rem;
   margin: 10px 0;
 }
 .not-found-posts__text {
   color: #333;
-  font-size: 14px;
+  font-size: 0.875rem;
   margin: 0;
 }
 </style>
