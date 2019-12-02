@@ -372,8 +372,12 @@ body, div, header, aside, footer, input, button, ul {
   margin: 0 0 15px 0;
   font-size: 1rem;
   line-height: 1rem;
+  font-family: sans-serif;
 }
-
+.comment-form-comment,
+.comment-form-author {
+  font-size: 0.875rem;
+}
 .comment-notes {
   display: none;
 }
@@ -389,8 +393,9 @@ body, div, header, aside, footer, input, button, ul {
   background-color: #fff;
   transition: background-color 0.25s;
   box-sizing: border-box;
-  font-size: 0.83125rem;
-  line-height: 0.83125rem;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+  font-family: sans-serif;
 }
 #author,
 #comment {
