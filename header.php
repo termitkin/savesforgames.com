@@ -377,6 +377,7 @@ body, div, header, aside, footer, input, button, ul {
 .comment-form-comment,
 .comment-form-author {
   font-size: 0.875rem;
+  align-items: flex-start;
 }
 .comment-notes {
   display: none;
@@ -385,6 +386,7 @@ body, div, header, aside, footer, input, button, ul {
 #author,
 #comment {
   width: 100%;
+  max-width: 500px;
   height: 30px;
   border-radius: 3px;
   border: 1px solid #ccc;
@@ -436,11 +438,8 @@ body, div, header, aside, footer, input, button, ul {
 #comment {
   min-height: 100px;
 }
-.input:hover,
 .input:focus,
-#comment:hover,
 #comment:focus,
-#author:hover,
 #author:focus {
   background-color: #ffffcc;
   outline: none;
