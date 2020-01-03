@@ -7,7 +7,7 @@
 
     <div class="footer__content footer__content_align_right">
       <span class="footer__text">Powered By <a class="link link_color_white" href="http://wordpress.org/" title="Powered By WordPress" rel="nofollow noopener" target="_blank">WordPress</a></span>
-      <span class="footer__text">&copy; 2011-2019</span>
+      <span class="footer__text">&copy; 2011-2020</span>
     </div>
   </div>
 
