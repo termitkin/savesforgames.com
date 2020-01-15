@@ -142,6 +142,7 @@ body, div, header, aside, footer, input, button, ul {
   }
 }
 .sidebar {
+  width: 100%;
   display: flex;
   flex-direction: column;
   max-width: 260px;
@@ -161,15 +162,19 @@ body, div, header, aside, footer, input, button, ul {
   font-weight: 400;
   font-family: sans-serif;
 }
-.popular-posts-heading {
+.popular-posts {
+  display: block;
+}
+.popular-posts__heading {
   margin: 12px 0 3px 0;
   font-size: 1.125rem;
   color: #eb0000;
 }
-.popular-posts-list {
+.popular-posts__list {
   max-width: 260px;
   list-style-type: none;
   font-size: 0.75rem;
+  line-height: 1.5;
 }
 .link,
 .comment-reply-link,
