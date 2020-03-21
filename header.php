@@ -12,6 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://googleads.g.doubleclick.net">
 <link rel="preconnect" href="https://adservice.google.com">
+<link rel="preconnect" href="https://www.google-analytics.com">
 <style>
 html {
   height: 100%;
