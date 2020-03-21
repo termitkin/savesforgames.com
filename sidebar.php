@@ -1,4 +1,4 @@
-<aside role="complementary" class="sidebar">
+<aside class="sidebar">
 	<!--noindex-->
 	<?php //if( !$user_ID ) : ?>
 		<div class="popular-posts">

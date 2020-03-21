@@ -2,7 +2,7 @@
 
 <div class="content-and-sidebar-wrapper">
 
-  <div role="main" class="posts-wrapper">
+  <div role="main" class="posts">
 
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

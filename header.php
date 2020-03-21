@@ -19,6 +19,7 @@ html {
 }
 body {
 	height: calc(100% - 50px);
+  font-family: Helvetica, Arial, sans-serif;
 }
 body, div, header, aside, footer, input, button, ul {
   margin: 0;
@@ -36,14 +37,9 @@ body, div, header, aside, footer, input, button, ul {
 }
 .header {
   background-color: #eb0000;
-  height: 80px;
+  min-height: 40px;
   display: flex;
   justify-content: center;
-}
-@media screen and (min-width: 576px) {
-  .header {
-    height: 40px;
-  }
 }
 .header__content {
   width: 100%;
@@ -52,7 +48,6 @@ body, div, header, aside, footer, input, button, ul {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  font-family: sans-serif;
 }
 @media screen and (min-width: 576px) {
   .header__content {
@@ -110,7 +105,6 @@ body, div, header, aside, footer, input, button, ul {
   color: #444;
   font-size: 0.8125rem;
   line-height: 1.4;
-  font-family: sans-serif;
   word-wrap: break-word;
 }
 .post p {
@@ -131,14 +125,14 @@ body, div, header, aside, footer, input, button, ul {
   max-width: 500px;
   height: auto;
 }
-.posts-wrapper {
+.posts {
   width: 100%;
   min-height: 100%;
   max-width: 500px;
   margin: 0 auto;
 }
 @media screen and (min-width: 992px) {
-  .posts-wrapper {
+  .posts {
     margin: 0;
   }
 }
@@ -149,7 +143,6 @@ body, div, header, aside, footer, input, button, ul {
   max-width: 260px;
   overflow-x: hidden;
   margin: 0 auto;
-  font-family: sans-serif;
 }
 @media screen and (min-width: 992px) {
   .sidebar {
@@ -161,7 +154,6 @@ body, div, header, aside, footer, input, button, ul {
   font-size: 1.125rem;
   color: #eb0000;
   font-weight: 400;
-  font-family: sans-serif;
 }
 .popular-posts {
   display: block;
@@ -184,7 +176,6 @@ body, div, header, aside, footer, input, button, ul {
   color: #eb0000;
   font-size: 0.8125rem;
   font-weight: 400;
-  font-family: sans-serif;
 }
 .link:hover,
 .link:focus,
@@ -209,7 +200,6 @@ body, div, header, aside, footer, input, button, ul {
   display: flex;
   justify-content: center;
   box-sizing: border-box;
-  font-family: sans-serif;
 }
 @media screen and (min-width: 576px) {
   .footer {
@@ -266,7 +256,6 @@ body, div, header, aside, footer, input, button, ul {
   background-color: #eb0000;
   color: #fff;
   text-decoration: none;
-  font-family: sans-serif;
 }
 .page-numbers:hover,
 .page-numbers:focus {
@@ -297,7 +286,6 @@ body, div, header, aside, footer, input, button, ul {
   font-size: 1.125rem;
   font-weight: 700;
   color: #eb0000;
-  font-family: sans-serif;
 }
 .fb-comments {
   min-height: 180px;
@@ -320,7 +308,6 @@ body, div, header, aside, footer, input, button, ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
-  font-family: sans-serif;
 }
 .comment-list,
 .comment-body,
@@ -328,7 +315,6 @@ body, div, header, aside, footer, input, button, ul {
 .comment-reply-title {
   color: #444;
   font-size: 0.875rem;
-  font-family: sans-serif;
 }
 .comment-body {
   padding: 10px;
@@ -378,7 +364,6 @@ body, div, header, aside, footer, input, button, ul {
   margin: 0 0 15px 0;
   font-size: 1rem;
   line-height: 1rem;
-  font-family: sans-serif;
 }
 .comment-form-comment,
 .comment-form-author {
@@ -403,7 +388,6 @@ body, div, header, aside, footer, input, button, ul {
   box-sizing: border-box;
   font-size: 0.875rem;
   line-height: 0.875rem;
-  font-family: sans-serif;
 }
 #author,
 #comment {
@@ -453,7 +437,6 @@ body, div, header, aside, footer, input, button, ul {
 .not-found-posts {
   display: flex;
   flex-direction: column;
-  font-family: sans-serif;
 }
 .not-found-posts__heading {
   color: #333;
@@ -468,7 +451,7 @@ body, div, header, aside, footer, input, button, ul {
 </style>
 </head>
 <body>
-  <header role="banner" class="header">
+  <header class="header">
     <div class="header__content">
       <a class="site-logo" href="/" title="Home page">SavesForGames.Com</a>
       <form role="search" class="search-form" id="searchform" action="//savesforgames.com/" method="get">

@@ -1,4 +1,4 @@
-<footer role="contentinfo" class="footer">
+<footer class="footer">
   <div class="footer__inner">
 		<div class="footer__content footer__content_align_left">
       <a class="link link_color_white" href="/" title="Home page">Home</a>
@@ -13,7 +13,6 @@
 
 </footer>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<div id="fb-root"></div>
 <?php wp_footer(); ?>
 </body>
 </html>
