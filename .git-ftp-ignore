@@ -1,4 +1,6 @@
+.git/*
 .gitignore
-.github
+.github/*
 .git-ftp.log
+.git-ftp-ignore
 readme.md
