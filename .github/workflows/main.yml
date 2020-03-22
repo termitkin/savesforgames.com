@@ -15,4 +15,4 @@ jobs:
         ftp-server: ${{ secrets.SFTP_SERVER_AND_PORT }}
         ftp-username: ${{ secrets.FTP_USERNAME }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
-
+        git-ftp-args: --insecure # if your certificate is setup correctly this can be removed
