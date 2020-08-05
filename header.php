@@ -461,17 +461,6 @@ body, div, header, aside, footer, input, button, ul {
     </div>
   </header>
 
-  <div class="google-ads-in-header">
-  	<!-- savesforgames в шапке 728px -->
-  	<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
-     data-ad-client="ca-pub-3398097190333973"
-     data-ad-slot="3640909975"></ins>
-  	<script>
-  	(adsbygoogle = window.adsbygoogle || []).push({});
-  	</script>
-  </div>
-
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
