@@ -81,7 +81,7 @@ body, div, header, aside, footer, input, button, ul {
 .content-and-sidebar-wrapper {
   min-height: calc(100% - 266px);
   max-width: 780px;
-  margin: 0 auto;
+  margin: 50px auto 0 auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
