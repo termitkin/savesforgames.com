@@ -12,6 +12,7 @@
   </div>
 
 </footer>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <?php wp_footer(); ?>
 </body>
 </html>

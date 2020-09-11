@@ -8,6 +8,10 @@
 <meta name="google-site-verification" content="eXbFXJXlGto7DsVmYUNTpNBElLIIfDEo1oFhl08jGWg" />
 <meta name="yandex-verification" content="3b552121d3f3e932" />
 <link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="preconnect" href="https://pagead2.googlesyndication.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://googleads.g.doubleclick.net">
+<link rel="preconnect" href="https://adservice.google.com">
 <link rel="preconnect" href="https://www.google-analytics.com">
 <style>
 html {
@@ -77,7 +81,7 @@ body, div, header, aside, footer, input, button, ul {
 .content-and-sidebar-wrapper {
   min-height: calc(100% - 266px);
   max-width: 780px;
-  margin: 50px auto 0 auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -456,6 +460,17 @@ body, div, header, aside, footer, input, button, ul {
       </form>
     </div>
   </header>
+
+  <div class="google-ads-in-header">
+  	<!-- savesforgames в шапке 728px -->
+  	<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-3398097190333973"
+     data-ad-slot="3640909975"></ins>
+  	<script>
+  	(adsbygoogle = window.adsbygoogle || []).push({});
+  	</script>
+  </div>
 
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

@@ -27,6 +27,15 @@
     <?php } else {} ?>
 
     <div class="google-ads-and-comments-wrapper">
+      <!-- под новостью savesforgames -->
+      <ins class="adsbygoogle"
+        style="display:inline-block;width:468px;height:60px"
+        data-ad-client="ca-pub-3398097190333973"
+        data-ad-slot="6012890715">
+      </ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
 
       <div class="leave-a-comment">Comments:</div>
       <?php
