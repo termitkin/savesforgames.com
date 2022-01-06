@@ -9,10 +9,7 @@
 <meta name="yandex-verification" content="3b552121d3f3e932" />
 <link rel="shortcut icon" href="/favicon.ico"/>
 <link rel="preconnect" href="https://pagead2.googlesyndication.com">
-<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://googleads.g.doubleclick.net">
-<link rel="preconnect" href="https://adservice.google.com">
-<link rel="preconnect" href="https://www.google-analytics.com">
 <style>
 html {
   height: 100%;
