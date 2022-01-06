@@ -24,7 +24,7 @@
       <div class="you-can-download">
         Also, you can download <a class="link link_size_big" href="//trainersforgames.com<?php echo (get_post_meta(get_the_ID(), '1', true)) ?>" target="_blank" rel="nofollow noopener">trainers</a> for this game
       </div>
-    <?php } else {} ?>
+    <?php } ?>
 
     <div class="google-ads-and-comments-wrapper">
       <!-- под новостью savesforgames -->
