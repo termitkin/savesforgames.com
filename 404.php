@@ -8,14 +8,8 @@
   <meta property="fb:admins" content="100001912999823"/>
   <meta property="fb:app_id" content="204938163503477" />
   <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
-  <link rel="dns-prefetch" href="https://google-analytics.com">
-  <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net">
-  <link rel="dns-prefetch" href="https://adservice.google.com">
-  <link rel="dns-prefetch" href="https://platform.twitter.com">
-  <link rel="dns-prefetch" href="https://syndication.twitter.com">
-  <link rel="dns-prefetch" href="https://www.facebook.com">
-  <link rel="dns-prefetch" href="https://connect.facebook.net">
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com">
+  <link rel="preconnect" href="https://googleads.g.doubleclick.net">
   <style>
   * {
     box-sizing: border-box;
@@ -145,7 +139,7 @@
     <div class="header__content-wrapper">
       <a class="site-logo" href="/" title="Home page">SavesForGames.com</a>
       <form class="search-form" id="searchform" action="//savesforgames.com/" method="get">
-        <input class="search-form__input" name="s" type="text" placeholder="Find a trainer..">
+        <input class="search-form__input" name="s" type="text" placeholder="Find a savegame..">
         <button class="search-form__button" id="searchsubmit" type="submit">Search</button>
       </form>
     </div>
