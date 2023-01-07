@@ -314,18 +314,18 @@ body, div, header, aside, footer, input, button, ul {
 }
 .comment-body {
   padding: 10px;
-  border: 1px solid #ccc;
+  outline: 1px solid #ddd;
+  background-color: #f5f5f5;
   border-radius: 5px;
 }
 .comment-meta {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #4169e1;
+  background-color: #eb0000;
   color: #fff;
-  margin: -11px -11px 0 -11px;
   padding: 5px;
-  border-radius: 5px 5px 0 0;
+  border-radius: 5px;
 }
 .comment-metadata {
   display: flex;
