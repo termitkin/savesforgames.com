@@ -164,6 +164,10 @@ body, div, header, aside, footer, input, button, ul {
   list-style-type: none;
   font-size: 0.75rem;
   line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-top: 0.5rem;
 }
 .link,
 .comment-reply-link,
