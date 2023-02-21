@@ -10,12 +10,15 @@
 <link rel="shortcut icon" href="/favicon.ico"/>
 <link rel="preconnect" href="https://pagead2.googlesyndication.com">
 <style>
+:root {
+    --bg-main: oklch(0.65 0.3 29.62);
+}
 html {
   height: 100%;
 }
 body {
-	height: calc(100% - 50px);
-  font-family: Helvetica, Arial, sans-serif;
+    height: calc(100% - 50px);
+    font-family: Helvetica, Arial, sans-serif;
 }
 body, div, header, aside, footer, input, button, ul {
   margin: 0;
@@ -32,7 +35,7 @@ body, div, header, aside, footer, input, button, ul {
   }
 }
 .header {
-  background-color: #eb0000;
+  background-color: var(--bg-main);
   min-height: 40px;
   display: flex;
   justify-content: center;
@@ -110,7 +113,7 @@ body, div, header, aside, footer, input, button, ul {
   color: #454545;
 }
 .post a {
-  color: #eb0000;
+  color: var(--bg-main);
 }
 .post a:hover,
 .post a:focus {
@@ -148,7 +151,7 @@ body, div, header, aside, footer, input, button, ul {
 .post-heading {
   display: inline;
   font-size: 1.125rem;
-  color: #eb0000;
+  color: var(--bg-main);
   font-weight: 400;
 }
 .popular-posts {
@@ -157,7 +160,7 @@ body, div, header, aside, footer, input, button, ul {
 .popular-posts__heading {
   margin: 12px 0 3px 0;
   font-size: 1.125rem;
-  color: #eb0000;
+  color: var(--bg-main);
 }
 .popular-posts__list {
   max-width: 260px;
@@ -173,7 +176,7 @@ body, div, header, aside, footer, input, button, ul {
 .comment-reply-link,
 .comment-reply-title a {
   text-decoration: underline;
-  color: #eb0000;
+  color: var(--bg-main);
   font-size: 0.8125rem;
   font-weight: 400;
 }
@@ -193,7 +196,7 @@ body, div, header, aside, footer, input, button, ul {
 }
 .footer {
   padding: 15px;
-  background-color: #eb0000;
+  background-color: var(--bg-main);
   color: #fff;
   margin-top: 20px;
   font-size: 0.875rem;
@@ -253,7 +256,7 @@ body, div, header, aside, footer, input, button, ul {
   align-items: center;
   margin: 10px 4px 0 0;
   padding: 7px 7px 5px 7px;
-  background-color: #eb0000;
+  background-color: var(--bg-main);
   color: #fff;
   text-decoration: none;
 }
@@ -263,7 +266,7 @@ body, div, header, aside, footer, input, button, ul {
 }
 .dots:hover,
 .dots:focus {
-  background-color: #eb0000;
+  background-color: var(--bg-main);
 }
 .current,
 .current:hover,
@@ -285,7 +288,7 @@ body, div, header, aside, footer, input, button, ul {
   margin: 10px 0;
   font-size: 1.125rem;
   font-weight: 700;
-  color: #eb0000;
+  color: var(--bg-main);
 }
 .fb-comments {
   min-height: 180px;
@@ -326,7 +329,7 @@ body, div, header, aside, footer, input, button, ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #eb0000;
+  background-color: var(--bg-main);
   color: #fff;
   padding: 5px;
   border-radius: 5px;
