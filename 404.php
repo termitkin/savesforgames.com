@@ -8,8 +8,6 @@
   <meta property="fb:admins" content="100001912999823"/>
   <meta property="fb:app_id" content="204938163503477" />
   <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="preconnect" href="https://pagead2.googlesyndication.com">
-  <link rel="preconnect" href="https://googleads.g.doubleclick.net">
   <style>
   * {
     box-sizing: border-box;
@@ -22,17 +20,6 @@
   body, div, header, aside, footer, input, button, ul {
     margin: 0;
     padding: 0;
-  }
-  .google-ads-in-header {
-    width: 728px;
-    margin: 20px auto 0 auto;
-  }
-
-  @media screen and (min-width: 0px) and (max-width: 782px) {
-    .google-ads-in-header {
-      width: 100%;
-      margin: 20px auto 0 auto;
-    }
   }
   .header {
     background-color: #09c;
@@ -144,28 +131,6 @@
       </form>
     </div>
   </header>
-
-  <div class="google-ads-in-header">
-  	<!-- savesforgames в шапке 728px -->
-  	<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
-     data-ad-client="ca-pub-3398097190333973"
-     data-ad-slot="3640909975"></ins>
-  	<script>
-  	(adsbygoogle = window.adsbygoogle || []).push({});
-  	</script>
-  </div>
-
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-12705312-6', 'savesforgames.com',{'siteSpeedSampleRate': 100});
-  ga('require', 'displayfeatures');
-  ga('send', 'pageview');
-  </script>
 
 	<div class="page-404">
     <h1 class="page-404__heading">Error 404: Page not Found</h1>
