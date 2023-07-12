@@ -8,7 +8,7 @@
 <meta name="google-site-verification" content="eXbFXJXlGto7DsVmYUNTpNBElLIIfDEo1oFhl08jGWg" />
 <meta name="yandex-verification" content="3b552121d3f3e932" />
 <link rel="shortcut icon" href="/favicon.ico"/>
-<link rel="preconnect" href="https://pagead2.googlesyndication.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
 <style>
 html {
   height: 100%;
@@ -20,16 +20,6 @@ body {
 body, div, header, aside, footer, input, button, ul {
   margin: 0;
   padding: 0;
-}
-.google-ads-in-header {
-  width: 100%;
-  max-width: 728px;
-  margin: 20px auto 0 auto;
-}
-@media screen and (min-width: 992px) {
-  .google-ads-in-header {
-    width: 728px;
-  }
 }
 .header {
   background-color: #eb0000;
@@ -460,14 +450,3 @@ body, div, header, aside, footer, input, button, ul {
       </form>
     </div>
   </header>
-
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-12705312-6', 'savesforgames.com',{'siteSpeedSampleRate': 100});
-  ga('require', 'displayfeatures');
-  ga('send', 'pageview');
-  </script>
