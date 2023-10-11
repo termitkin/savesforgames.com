@@ -255,6 +255,7 @@ body, div, header, aside, footer, input, button, ul {
   background-color: var(--pagination-default);
   color: #fff;
   text-decoration: none;
+  transition: background-color 0.25s;
 }
 .page-numbers:hover,
 .page-numbers:focus {
@@ -411,6 +412,7 @@ body, div, header, aside, footer, input, button, ul {
   padding: 7px;
   font-size: 0.83125rem;
   line-height: 0.83125rem;
+  transition: background-color 0.25s;
 }
 .submit:hover,
 .submit:focus {
