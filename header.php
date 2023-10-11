@@ -10,6 +10,15 @@
 <link rel="shortcut icon" href="/favicon.ico"/>
 <link rel="preconnect" href="https://www.googletagmanager.com">
 <style>
+:root {
+  --bg-main: #eb0000;
+  --text-main: #444;
+  --light-yellow: #ffc;
+
+  --pagination-default: var(--bg-main);
+  --pagination-active: #ffa500;
+  --pagination-hovered: #ed8000;
+}
 html {
   height: 100%;
 }
@@ -22,7 +31,7 @@ body, div, header, aside, footer, input, button, ul {
   padding: 0;
 }
 .header {
-  background-color: #eb0000;
+  background-color: var(--bg-main);
   min-height: 40px;
   display: flex;
   justify-content: center;
@@ -61,7 +70,7 @@ body, div, header, aside, footer, input, button, ul {
 }
 .site-logo:focus,
 .site-logo:hover {
-  color: #ffffcc;
+  color: var(--light-yellow);
   text-decoration: none;
 }
 .content-and-sidebar-wrapper {
@@ -88,7 +97,7 @@ body, div, header, aside, footer, input, button, ul {
   width: 100%;
   max-width: 500px;
   margin-top: 10px;
-  color: #444;
+  color: var(--text-main);
   font-size: 0.8125rem;
   line-height: 1.4;
   word-wrap: break-word;
@@ -97,10 +106,10 @@ body, div, header, aside, footer, input, button, ul {
   margin: 13px 0;
 }
 .post strong {
-  color: #454545;
+  color: var(--text-main);
 }
 .post a {
-  color: #eb0000;
+  color: var(--bg-main);
 }
 .post a:hover,
 .post a:focus {
@@ -138,7 +147,7 @@ body, div, header, aside, footer, input, button, ul {
 .post-heading {
   display: inline;
   font-size: 1.125rem;
-  color: #eb0000;
+  color: var(--bg-main);
   font-weight: 400;
 }
 .popular-posts {
@@ -147,7 +156,7 @@ body, div, header, aside, footer, input, button, ul {
 .popular-posts__heading {
   margin: 12px 0 3px 0;
   font-size: 1.125rem;
-  color: #eb0000;
+  color: var(--bg-main);
 }
 .popular-posts__list {
   max-width: 260px;
@@ -163,7 +172,7 @@ body, div, header, aside, footer, input, button, ul {
 .comment-reply-link,
 .comment-reply-title a {
   text-decoration: underline;
-  color: #eb0000;
+  color: var(--bg-main);
   font-size: 0.8125rem;
   font-weight: 400;
 }
@@ -183,7 +192,7 @@ body, div, header, aside, footer, input, button, ul {
 }
 .footer {
   padding: 15px;
-  background-color: #eb0000;
+  background-color: var(--bg-main);
   color: #fff;
   margin-top: 20px;
   font-size: 0.875rem;
@@ -243,22 +252,22 @@ body, div, header, aside, footer, input, button, ul {
   align-items: center;
   margin: 10px 4px 0 0;
   padding: 7px 7px 5px 7px;
-  background-color: #eb0000;
+  background-color: var(--pagination-default);
   color: #fff;
   text-decoration: none;
 }
 .page-numbers:hover,
 .page-numbers:focus {
-  background-color: #339900;
+  background-color: var(--pagination-hovered);
 }
 .dots:hover,
 .dots:focus {
-  background-color: #eb0000;
+  background-color: var(--bg-main);
 }
 .current,
 .current:hover,
 .current:focus {
-  background-color: #ed8000;
+  background-color: var(--pagination-active);
 }
 .google-ads-and-comments-wrapper {
   width: 100%;
@@ -275,14 +284,14 @@ body, div, header, aside, footer, input, button, ul {
   margin: 10px 0;
   font-size: 1.125rem;
   font-weight: 700;
-  color: #eb0000;
+  color: var(--bg-main);
 }
 .fb-comments {
   min-height: 180px;
 }
 .post-views-label,
 .post-views-count {
-  color: #444;
+  color: var(--text-main);
   font-size: 0.75rem;
   display: inline;
 }
@@ -291,7 +300,7 @@ body, div, header, aside, footer, input, button, ul {
   max-width: 500px;
   margin-bottom: 14px;
   font-family: arial, sans-serif;
-  color: #444;
+  color: var(--text-main);
 }
 .comment-list,
 .children {
@@ -303,7 +312,7 @@ body, div, header, aside, footer, input, button, ul {
 .comment-body,
 .comments-title,
 .comment-reply-title {
-  color: #444;
+  color: var(--text-main);
   font-size: 0.875rem;
 }
 .comment-body {
@@ -316,7 +325,7 @@ body, div, header, aside, footer, input, button, ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #eb0000;
+  background-color: var(--bg-main);
   color: #fff;
   padding: 5px;
   border-radius: 5px;
@@ -405,7 +414,7 @@ body, div, header, aside, footer, input, button, ul {
 }
 .submit:hover,
 .submit:focus {
-  background-color: #ffffcc;
+  background-color: var(--light-yellow);
 }
 .submit_search {
   height: 30px;
@@ -421,7 +430,7 @@ body, div, header, aside, footer, input, button, ul {
 .input:focus,
 #comment:focus,
 #author:focus {
-  background-color: #ffffcc;
+  background-color: var(--light-yellow);
   outline: none;
 }
 .not-found-posts {
@@ -429,12 +438,12 @@ body, div, header, aside, footer, input, button, ul {
   flex-direction: column;
 }
 .not-found-posts__heading {
-  color: #333;
+  color: var(--text-main);
   font-size: 1.125rem;
   margin: 10px 0;
 }
 .not-found-posts__text {
-  color: #333;
+  color: var(--text-main);
   font-size: 0.875rem;
   margin: 0;
 }
