@@ -253,7 +253,8 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 /* ===== Layout ===== */
 .content-and-sidebar-wrapper {
   flex: 1 0 auto;
-  max-width: 1200px;
+  max-width: 1100px;
+  width: 100%;
   margin: 0 auto;
   padding: 28px 20px 48px;
   display: grid;
@@ -622,6 +623,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 }
 .footer__inner {
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
