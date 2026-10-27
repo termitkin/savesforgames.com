@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  php-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Файлы передаются в контейнер через stdin (tar), а не bind-mount: job act_runner сам
+      # работает в контейнере, и путь рабочей копии не виден docker-демону хоста.
+      - name: php -l (php:8.3-cli)
+        run: |
+          git ls-files -z '*.php' | tar --null -T - -cf - \
+            | docker run --rm -i php:8.3-cli sh -c '
+                set -e
+                mkdir /app && cd /app && tar -xf -
+                find . -name "*.php" -print0 | xargs -0 -n1 php -l
+              '
